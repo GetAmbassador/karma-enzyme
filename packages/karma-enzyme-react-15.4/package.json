@@ -1,0 +1,23 @@
+{
+  "name": "karma-enzyme-react-15.4",
+  "version": "0.0.1",
+  "description": "Enzyme + React 15.4 for Karma",
+  "main": "index.js",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "enzyme",
+    "react-15.4",
+    "react"
+  ],
+  "scripts": {
+    "build": "webpack --env build"
+  },
+  "peerDependencies": {
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-15.4": "^1.0.0",
+    "karma": ">=0.10.9"
+  },
+  "author": "William J. Hitchcock",
+  "license": "MIT"
+}
