@@ -27,8 +27,6 @@ Install the plugin from npm:
 $ npm install karma-enzyme-react-16 --save-dev
 ```
 
-Or from Github:
-
 Add `enzyme-react-16` to the `frameworks` key and `karma-enzyme-react-16` to the `plugins` key in your Karma configuration:
 
 ```javascript
