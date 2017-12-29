@@ -7,6 +7,7 @@ Intro
 -----
 
 There is a npm package for each available enzyme-react adapter:
+
 | karma-enzyme package | Enzyme Adapter Package | React semver compatibility |
 | --- | --- | --- |
 | `karma-enzyme-react-16` | `enzyme-adapter-react-16` | `^16.0.0` |
