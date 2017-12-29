@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "Enzyme + React 13 for Karma",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GetAmbassador/karma-enzyme.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GetAmbassador/karma-enzyme/issues"
+  },
+  "homepage": "https://github.com/GetAmbassador/karma-enzyme",
   "keywords": [
     "karma",
     "karma-plugin",
@@ -16,8 +25,8 @@
   "peerDependencies": {
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-13": "^1.0.0",
-    "karma": ">=0.10.9"
+    "karma": ">=0.10.9",
+    "webpack": "^2.0.0"
   },
-  "author": "William J. Hitchcock",
-  "license": "MIT"
+  "author": "Ambassador Engineering"
 }

@@ -7,6 +7,7 @@ Intro
 -----
 
 There is a npm package for each available enzyme-react adapter:
+
 | karma-enzyme package | Enzyme Adapter Package | React semver compatibility |
 | --- | --- | --- |
 | `karma-enzyme-react-16` | `enzyme-adapter-react-16` | `^16.0.0` |
@@ -15,22 +16,24 @@ There is a npm package for each available enzyme-react adapter:
 | `karma-enzyme-react-14` | `enzyme-adapter-react-14` | `^0.14.0` |
 | `karma-enzyme-react-13` | `enzyme-adapter-react-13` | `^0.13.0` |
 
+All the instructions in this readme will use `karma-enzyme-react-16` as an example, use the correct package for your configuration.
+
 Installation
 ------------
 
 Install the plugin from npm:
 
 ```sh
-$ npm install karma-enzyme-react-* --save-dev
+$ npm install karma-enzyme-react-16 --save-dev
 ```
 
 Or from Github:
 
-Add `enzyme-react-*` to the `frameworks` key and `karma-enzyme-react-*` to the `plugins` key in your Karma configuration:
+Add `enzyme-react-16` to the `frameworks` key and `karma-enzyme-react-16` to the `plugins` key in your Karma configuration:
 
 ```javascript
-frameworks = ['enzyme-react-*'];
-plugins = ['karma-enzyme-react-*'];
+frameworks = ['enzyme-react-16'];
+plugins = ['karma-enzyme-react-16'];
 ```
 
 
