@@ -6,6 +6,8 @@ karma-enzyme
 Intro
 -----
 
+Automatically include pre configured enzyme methods in karma test suite. This may help if you are having trouble configuring Enzyme 3 in all scenarios. This package requires that your karma test suite is being run in webpack.
+
 There is a npm package for each available enzyme-react adapter:
 
 | karma-enzyme package | Enzyme Adapter Package | React semver compatibility |
