@@ -18,7 +18,7 @@ There is a npm package for each available enzyme-react adapter:
 | `karma-enzyme-react-14` | `enzyme-adapter-react-14` | `^0.14.0` |
 | `karma-enzyme-react-13` | `enzyme-adapter-react-13` | `^0.13.0` |
 
-All the instructions in this readme will use `karma-enzyme-react-16` as an example, use the correct package for your configuration.
+All the instructions in this readme will use `karma-enzyme-react-16` as an example, use the correct package for your desired configuration.
 
 Installation
 ------------
