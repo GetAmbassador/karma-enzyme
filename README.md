@@ -27,7 +27,7 @@ There is a npm package for each available enzyme-react adapter:
 
 Installation
 -----
-_* Example uses karma-enzyme-react-16 as an example. Ise the correct package for your desired configuration._
+_* Example uses karma-enzyme-react-16 as an example. Use the correct package for your desired configuration._
 
 Install it with `npm install karma-enzyme-react-16 --save-dev`.
 
