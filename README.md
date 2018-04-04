@@ -5,6 +5,7 @@ karma-enzyme
 
 Intro
 -----
+Karma-Enzyme provides simple configuration and usage of Enzyme 3 with the Karma test suite.
 
 Automatically include pre configured enzyme methods in karma test suite. This may help if you are having trouble configuring Enzyme 3 in all scenarios. This package requires that your karma test suite is being run in webpack.
 
