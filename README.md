@@ -1,9 +1,18 @@
-karma-enzyme
-==========
 
-[Enzyme 3](http://airbnb.io/enzyme/) for [Karma](http://karma-runner.github.io)
+<h2 align="center">Karma-Enzyme</h2>
 
-Intro
+<p align="center">
+<strong>Simple configuration and usage of Enzyme 3 with the Karma test suite.</strong>
+
+<br>
+
+**Karma-Enzyme** automatically includes pre-configured Enzyme methods in Karma test suite, enabling you to easily configure Enzyme 3 with multiple versions of React.
+
+Requirements
+------
+This package requires that your Karma test suite is being run in Webpack.
+
+Configuration Options
 -----
 
 There is a npm package for each available enzyme-react adapter:
@@ -16,16 +25,11 @@ There is a npm package for each available enzyme-react adapter:
 | `karma-enzyme-react-14` | `enzyme-adapter-react-14` | `^0.14.0` |
 | `karma-enzyme-react-13` | `enzyme-adapter-react-13` | `^0.13.0` |
 
-All the instructions in this readme will use `karma-enzyme-react-16` as an example, use the correct package for your configuration.
-
 Installation
-------------
+-----
+_* Example uses karma-enzyme-react-16 as an example. Use the correct package for your desired configuration._
 
-Install the plugin from npm:
-
-```sh
-$ npm install karma-enzyme-react-16 --save-dev
-```
+Install it with `npm install karma-enzyme-react-16 --save-dev`.
 
 Add `enzyme-react-16` to the `frameworks` key and `karma-enzyme-react-16` to the `plugins` key in your Karma configuration:
 
@@ -34,10 +38,8 @@ frameworks = ['enzyme-react-16'];
 plugins = ['karma-enzyme-react-16'];
 ```
 
-
 Usage
 -----
-
 Enzyme will be configured using the appropriate adapter and each of the different Enzyme methods are available in the tests:
 
 ```javascript
